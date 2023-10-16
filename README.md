@@ -1,5 +1,5 @@
-# Exemplo de Tabela Hash em Java
-Este é um exemplo de uma tabela hash genérica em Java. A tabela hash é uma estrutura de dados que mapeia chaves para valores e permite operações eficientes de inserção, busca e remoção. Neste código, você encontrará a implementação de uma tabela de hash que suporta duas estratégias de tratamento de colisões: encadeamento (chaining) e linear probing.
+# Tabela Hash em Java
+Este é um exemplo de uma tabela hash em Java. A tabela hash é uma estrutura de dados que mapeia chaves para valores e permite operações eficientes de inserção, busca e remoção. Neste código, você encontrará a implementação de uma tabela de hash que suporta duas estratégias de tratamento de colisões: encadeamento (chaining) e linear probing. Esse projeto foi desenvolvido por João Pedro Corrêa Santos, Enzo Mansour Singer e Rodrigo Kenji, alunos de Engenharia de Software na PUCPR.
 
 # Visão Geral
 
