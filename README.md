@@ -1,5 +1,5 @@
-# README - Exemplo de Tabela de Hash em Java
-Este é um exemplo de uma tabela de hash genérica em Java. A tabela de hash é uma estrutura de dados que mapeia chaves para valores e permite operações eficientes de inserção, busca e remoção. Neste código, você encontrará a implementação de uma tabela de hash que suporta duas estratégias de tratamento de colisões: encadeamento (chaining) e linear probing.
+# README - Exemplo de TabelaHash em Java
+Este é um exemplo de uma tabela hash genérica em Java. A tabela hash é uma estrutura de dados que mapeia chaves para valores e permite operações eficientes de inserção, busca e remoção. Neste código, você encontrará a implementação de uma tabela de hash que suporta duas estratégias de tratamento de colisões: encadeamento (chaining) e linear probing.
 
 # Visão Geral
 
@@ -17,9 +17,9 @@ Este é um exemplo de uma tabela de hash genérica em Java. A tabela de hash é 
 
 **O código inclui um método main que oferece um menu interativo para realizar as seguintes operações:**
 
-**Inserir Item:** Permite inserir um novo par chave-valor na tabela de hash.  
-**Remover Item**: Permite remover um item da tabela de hash com base em sua chave.  
-**Buscar Item**: Permite buscar um item na tabela de hash com base em sua chave e exibir o valor associado.  
+**Inserir Item:** Permite inserir um novo par chave-valor na tabela hash.  
+**Remover Item**: Permite remover um item da tabela hash com base em sua chave.  
+**Buscar Item**: Permite buscar um item na tabela hash com base em sua chave e exibir o valor associado.  
 **Listar Itens**: Exibe todos os itens presentes na tabela.  
 **Testar Eficiência:** Avalia a eficiência de inserção para um número de iterações.  
 **Alternar Método:** Alterna entre as estratégias de tratamento de colisões (encadeamento ou linear probing).  
@@ -37,11 +37,11 @@ Este é um exemplo de uma tabela de hash genérica em Java. A tabela de hash é 
 
 
 # Redimensionamento da Tabela
-A tabela de hash é redimensionada automaticamente quando o fator de carga (razão entre o número de elementos e o tamanho da tabela) ultrapassa o limite definido em LOAD_FACTOR_THRESHOLD.
+A tabela hash é redimensionada automaticamente quando o fator de carga (razão entre o número de elementos e o tamanho da tabela) ultrapassa o limite definido em LOAD_FACTOR_THRESHOLD.
 
-# Funções de Hash
+# Funções Hash
 
-O código inclui três funções de hash:
+O código inclui três funções hash:
 
 **hash(key):** Calcula o índice com base na chave e no tamanho da tabela.  
 **hashLinearProbing(key):** Usada para a estratégia de linear probing.  
@@ -51,7 +51,7 @@ O código inclui três funções de hash:
 A classe estática interna Entry representa uma entrada na tabela e contém uma chave e um valor associado a essa chave.  
 
 # Exemplo de Execução
-Para usar a tabela de hash, execute o programa e siga as opções do menu para inserir, remover, buscar e listar itens. Você também pode alternar entre encadeamento (chaining) e linear probing e testar a eficiência de inserção.  
+Para usar a tabela hash, execute o programa e siga as opções do menu para inserir, remover, buscar e listar itens. Você também pode alternar entre encadeamento (chaining) e linear probing e testar a eficiência de inserção.  
 
 **INSERÇÃO**   
 ![image](https://github.com/scpjoaoo/HashTable/assets/131673681/4b800748-e0d4-42e4-ab57-a702571e61ea)
