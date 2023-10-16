@@ -59,8 +59,8 @@ Para usar a tabela hash, execute o programa e siga as opções do menu para inse
 **REMOÇÃO**  
 ![image](https://github.com/scpjoaoo/HashTable/assets/131673681/00e48cf9-d339-4aed-9d3f-e427f842bce6)
 
-**BUSCA**
+**BUSCA**  
 ![image](https://github.com/scpjoaoo/HashTable/assets/131673681/ae0f5fc0-cc5b-46b7-815d-1fde1f31418a)
 
-**LISTAGEM**
+**LISTAGEM**  
 ![image](https://github.com/scpjoaoo/HashTable/assets/131673681/9bdc85e1-ce55-4774-8773-8997fbc39107)
